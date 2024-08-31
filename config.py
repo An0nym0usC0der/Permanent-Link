@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "26512989"))
 API_HASH = environ.get("API_HASH", "18384653bbc502e6134b104c139e70f2")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7481834594:AAHaWqvtbWjuNLYHJYn04G5JKJHbTLL7UjU")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7434361730:AAEQraMV7ixHo7K-jwluAKKcYxGit1zlCvg")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/4bcfd34906b967165f432.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987158459').split()]
@@ -64,7 +64,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "hRPS5vvZc0OGOEUQJMJzPiojoVK2") # s
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_To_Open_Linkl") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://fileproviderbot.blogspot.com/2024/08/file-store-code.html") # For More Information Check Video On Yt - @Tech_VJ
